@@ -145,19 +145,27 @@ button:hover{
     h1 {
         font-size: 3.3rem;
     }
-    .artists-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
     div.artist {
-        disp
+        width: 50%;
     }
     img {
         height: 20rem;
-        align-items: center;
-        align-content: center;
     }
+   div.bio {
+       font-size: 1.1rem;
+       width: 150%;
+       margin-left: -25%;
 
+   }
+   .artists-container {
+       display: block;
+       margin-left: 25%;
+       width: 100%;
+   }
+   a {
+       font-size: 1.6rem;
+   }
+}
+div.artist2 {
+    margin-top: 5%;
 }
