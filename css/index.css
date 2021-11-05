@@ -134,3 +134,30 @@ button:hover{
 .artist img{
     width:100%;
 }
+/* RESPONSIVE STYLES */
+
+/* TABLET VIEW QUERY*/
+@media (max-width: 800px){
+
+}
+/* MOBILE VIEW QUERY*/
+@media (max-width: 500px){
+    h1 {
+        font-size: 3.3rem;
+    }
+    .artists-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    div.artist {
+        disp
+    }
+    img {
+        height: 20rem;
+        align-items: center;
+        align-content: center;
+    }
+
+}
